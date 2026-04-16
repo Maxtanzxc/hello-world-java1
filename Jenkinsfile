@@ -6,6 +6,8 @@ pipeline {
         PATH = "${JAVA_HOME}\\bin;${env.PATH}"
     }
 
+    //hello
+
     stages {
 
         stage('Verify Environment') {
